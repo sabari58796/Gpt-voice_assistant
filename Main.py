@@ -12,7 +12,7 @@ def fun_speak(words):
     voice.runAndWait()
 
 def fun_Gtp(words):
-    openai.api_key = "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"
+    openai.api_key = "Your openAi API key "
     # Set up the model and prompt
     model = "text-davinci-002"
     prompt = words
